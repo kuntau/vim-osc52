@@ -18,9 +18,9 @@ Plug 'kuntau/vim-osc52'
 Edit your `.vimrc` to include this code
 
 ```viml
-vmap <C-c> y:call SendViaOSC52(getreg('"'))<cr>
+vmap <C-c> <Plug>(YankOSC52)
 ```
 
-This will map Ctrl+C to copy.  You can now select text in vi using the visual
+This will map Ctrl+C to copy.  You can now select text in vim using the visual
 mark mode or the mouse, and press Ctrl+C to copy it to the clipboard.
 
